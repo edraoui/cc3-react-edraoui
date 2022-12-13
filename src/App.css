@@ -1,0 +1,63 @@
+.ListUser{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%;
+  margin: auto;
+}
+.Header{
+  font-size: 30px;
+  text-align: center;
+  background-color: cadetblue;
+}
+.Details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.Details img {
+  width: 300px;
+  height: 100%;
+}
+.detail {
+  display: flex;
+  width: 250px;
+  text-align: left;
+  padding: 5px;
+}
+.listpost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.listpost .div{
+  border-collapse: collapse;
+}
+.User {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  gap: 8px;
+}
+.User img {
+  width: 250px;
+  height: 250px;
+}
+.User button {
+  width: 60%;
+  background-color: cadetblue;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.Nomc{
+    font-size: 25px;
+    font-weight: bold;
+}
